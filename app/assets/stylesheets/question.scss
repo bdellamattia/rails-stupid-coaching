@@ -1,0 +1,57 @@
+// Place all the styles related to the question controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+  font-family: helvetica;
+}
+
+
+h1{
+  font-size: 28px;
+  font-family: helvetica;
+}
+
+input{
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid gray;
+  width: 300px;
+  height: 25px;
+}
+
+input#submit{
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 25px;
+  border: 1px solid gray!important;
+}
+
+#submit:hover{
+  background-color: #eaeaea;
+  color: black;
+}
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  text-align:center;
+  padding: 100px;
+  line-height: 2;
+}
+
+p{
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: overline;
+  color:black;
+}
+
